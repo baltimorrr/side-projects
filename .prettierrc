@@ -1,4 +1,33 @@
 {
+  "endOfLine": "lf",
+  "printWidth": 80,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "semi": false,
+  "jsxSingleQuote": true,
+  "useTabs": false,
   "tabWidth": 2,
-  "useTabs": false
+  "arrowParens": "always",
+  "importOrder": [
+    "^(react)|^(react-(.*)$)|^(react/(.*)$)|^(react$)",
+    "@fullcalendar/react",
+    "@fullcalendar/daygrid",
+    "^@mui/(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^components/(.*)$",
+    "^(config)",
+    "^contexts/(.*)$",
+    "^guards/(.*)$",
+    "^hooks/(.*)$",
+    "^layouts/(.*)$",
+    "^locales/(.*)$",
+    "^redux/(.*)$",
+    "^routes/(.*)$",
+    "^sections/(.*)$",
+    "^theme/(.*)$",
+    "^utils/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
